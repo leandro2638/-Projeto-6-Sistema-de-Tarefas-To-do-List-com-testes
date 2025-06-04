@@ -14,7 +14,7 @@ export default function ListaTarefas(){
 
   return(
     <div className="container">
-      <h1>📝Lista de Tarefas</h1>
+      <h1>Lista de Tarefas</h1>
       <input
         value={novaTarefa}
         onChange={(e) => setNovaTarefa(e.target.value)}
